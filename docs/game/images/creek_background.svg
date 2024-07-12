@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- 天空 -->
+  <rect width="1280" height="400" fill="#87CEEB"/>
+  
+  <!-- 远处的山 -->
+  <path d="M0 150 Q 320 50 640 150 Q 960 50 1280 150 L 1280 400 L 0 400 Z" fill="#228B22"/>
+  
+  <!-- 草地 -->
+  <path d="M0 400 Q 320 380 640 400 Q 960 380 1280 400 L 1280 720 L 0 720 Z" fill="#32CD32"/>
+  
+  <!-- 小溪 -->
+  <path d="M-40 500 Q 320 480 640 500 Q 960 520 1320 500" fill="none" stroke="#4169E1" stroke-width="80"/>
+  
+  <!-- 岩石 -->
+  <ellipse cx="200" cy="520" rx="30" ry="20" fill="#808080"/>
+  <ellipse cx="800" cy="480" rx="40" ry="25" fill="#A9A9A9"/>
+  <ellipse cx="1100" cy="530" rx="35" ry="22" fill="#696969"/>
+  
+  <!-- 树木 -->
+  <g id="tree">
+    <path d="M0 400 Q 20 360 40 400 L 30 400 Q 40 340 50 400 L 40 400 Q 50 350 60 400 Z" fill="#228B22"/>
+    <rect x="25" y="400" width="10" height="30" fill="#8B4513"/>
+  </g>
+  
+  <!-- 复制树木 -->
+  <use href="#tree" x="100" y="20"/>
+  <use href="#tree" x="400" y="-30"/>
+  <use href="#tree" x="700" y="10"/>
+  <use href="#tree" x="1000" y="-20"/>
+  <use href="#tree" x="1200" y="15"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- 天空 -->
+  <rect width="1280" height="720" fill="#87CEEB"/>
+  
+  <!-- 太阳 -->
+  <circle cx="1200" cy="100" r="60" fill="#FFD700"/>
+  
+  <!-- 远处的山 -->
+  <path d="M0 300 Q 320 100 640 300 Q 960 100 1280 300 L 1280 720 L 0 720 Z" fill="#228B22"/>
+  
+  <!-- 近处的树 -->
+  <g id="tree">
+    <path d="M0 720 Q 40 680 80 720 L 60 720 Q 80 640 100 720 L 80 720 Q 100 600 120 720 L 100 720 Q 120 680 140 720 Z" fill="#006400"/>
+    <rect x="60" y="720" width="20" height="40" fill="#8B4513"/>
+  </g>
+  
+  <!-- 复制树木 -->
+  <use href="#tree" x="200"/>
+  <use href="#tree" x="400"/>
+  <use href="#tree" x="600"/>
+  <use href="#tree" x="800"/>
+  <use href="#tree" x="1000"/>
+  
+  <!-- 草地 -->
+  <rect y="680" width="1280" height="40" fill="#32CD32"/>
+</svg>

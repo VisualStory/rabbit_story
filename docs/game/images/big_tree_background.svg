@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- 天空 -->
+  <rect width="1280" height="720" fill="#87CEEB"/>
+  
+  <!-- 远处的树木 -->
+  <path d="M0 300 Q 320 250 640 300 Q 960 250 1280 300 L 1280 720 L 0 720 Z" fill="#228B22"/>
+  
+  <!-- 大树主干 -->
+  <path d="M600 720 Q 580 500 640 300 Q 700 500 680 720" fill="#8B4513"/>
+  
+  <!-- 大树树冠 -->
+  <ellipse cx="640" cy="300" rx="300" ry="250" fill="#006400"/>
+  <ellipse cx="500" cy="400" rx="150" ry="120" fill="#006400"/>
+  <ellipse cx="780" cy="400" rx="150" ry="120" fill="#006400"/>
+  
+  <!-- 树洞 -->
+  <ellipse cx="620" cy="500" rx="40" ry="60" fill="#4B3621"/>
+  
+  <!-- 草地 -->
+  <rect y="680" width="1280" height="40" fill="#32CD32"/>
+  
+  <!-- 小花 -->
+  <g id="flower">
+    <circle cx="0" cy="0" r="5" fill="#FFD700"/>
+    <circle cx="0" cy="-8" r="4" fill="#FFFFFF"/>
+    <circle cx="8" cy="0" r="4" fill="#FFFFFF"/>
+    <circle cx="0" cy="8" r="4" fill="#FFFFFF"/>
+    <circle cx="-8" cy="0" r="4" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- 复制小花 -->
+  <use href="#flower" x="100" y="690"/>
+  <use href="#flower" x="300" y="700"/>
+  <use href="#flower" x="700" y="695"/>
+  <use href="#flower" x="1000" y="690"/>
+  <use href="#flower" x="1200" y="700"/>
+</svg>

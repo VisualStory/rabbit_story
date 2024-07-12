@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- 树洞内部背景 -->
+  <rect width="1280" height="720" fill="#8B4513"/>
+  
+  <!-- 树洞内部纹理 -->
+  <path d="M0 0 Q 640 40 1280 0 Q 1240 360 1280 720 Q 640 680 0 720 Q 40 360 0 0" fill="#A0522D"/>
+  
+  <!-- 窗户 - 显示外部森林 -->
+  <ellipse cx="1000" cy="300" rx="150" ry="200" fill="#228B22"/>
+  <ellipse cx="1000" cy="300" rx="140" ry="190" fill="#87CEEB"/>
+  
+  <!-- 小树枝装饰 -->
+  <line x1="880" y1="120" x2="1120" y2="120" stroke="#8B4513" stroke-width="10"/>
+  <line x1="860" y1="480" x2="1140" y2="480" stroke="#8B4513" stroke-width="10"/>
+  
+  <!-- 家具 - 小桌子 -->
+  <rect x="200" y="500" width="200" height="20" fill="#DEB887"/>
+  <rect x="220" y="520" width="20" height="100" fill="#DEB887"/>
+  <rect x="360" y="520" width="20" height="100" fill="#DEB887"/>
+  
+  <!-- 家具 - 小床 -->
+  <rect x="500" y="550" width="250" height="100" fill="#FFE4B5"/>
+  <rect x="500" y="500" width="250" height="50" fill="#DEB887"/>
+  <ellipse cx="625" cy="525" rx="100" ry="30" fill="#FFA07A"/>
+  
+  <!-- 装饰 - 挂在墙上的图片 -->
+  <rect x="100" y="200" width="120" height="80" fill="#FFE4B5" stroke="#8B4513" stroke-width="10"/>
+  
+  <!-- 装饰 - 小花盆 -->
+  <rect x="700" y="400" width="60" height="50" fill="#D2691E"/>
+  <path d="M700 400 Q 730 350 760 400" fill="#228B22"/>
+  <circle cx="730" cy="360" r="10" fill="#FF69B4"/>
+  
+  <!-- 地毯 -->
+  <ellipse cx="640" cy="650" rx="400" ry="60" fill="#FFA07A"/>
+</svg>
